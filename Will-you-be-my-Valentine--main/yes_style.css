@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url("imgs/pinklove.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: cursive
+}
+
+.container {
+    text-align: center;
+}
+
+.header_text {
+    font-size: 1em;
+    font-family: 'Times New Roman', Times, serif;
+    color: #000000;
+}
+.poem {
+    font-size: 2.7em;
+    font-family: "Brush Script MT", cursive;
+    color: black
+}
+
+.gif_container img {
+    width: 65%; 
+    max-width: 500px; 
+    height: auto; 
+    border-radius: 10px;
+    background: transparent;
+}
